@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="`{BF*gdG/zVvN^#j?(2!" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="!z$il8hB{kV*7j;Lu+gv"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        # . # . #
+        `</field></block></statement></block><block type="device_forever" id="A3c8vXU=,KH.W+?6jch%" x="205" y="0"></block><block type="device_button_event" id="V9zz;=$OvMF]t/-Mr}Ua" x="215" y="145"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="setMotorSpeed" id="4XI-^$=,Ru!lKGX?Y44}"><field name="motor">wuKong.MotorList.M1</field><value name="speed"><shadow type="math_number_minmax" id="JBEDa/cDZ8`YS]tjaxk_"><mutation min="-100" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">100</field></shadow></value></block></statement></block><block type="device_button_event" id="p#4},*)%3y_NLUgT$v,o" x="217" y="282"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="stopAllMotor" id="TLEhs|Zh=QS4usj!E7^s"></block></statement></block></xml>
